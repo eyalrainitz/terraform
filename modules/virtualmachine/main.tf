@@ -4,7 +4,6 @@ terraform {
 
 #Create a virtual machine(linux)
 resource "azurerm_virtual_machine" "vm" {
-  # count               = var.VM_COUNT //I tried to use it but could not figure out how it works.
   name                = var.VIRTUAL_MACHINE_NAME
   resource_group_name = var.RESOURCE_GROUP_NAME
   location            = var.AZURE_LOCATION

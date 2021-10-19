@@ -1,7 +1,4 @@
-# variable "VM_COUNT" {
-#   type        = string
-#   description = "The number of times you want the machine to be created."
-# }
+
 variable "VIRTUAL_MACHINE_NAME" {
   type        = string
   description = "The Name that will be used to set the virtual machine"
